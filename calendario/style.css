@@ -1,0 +1,38 @@
+.divCalendario{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    margin: 20px;
+}
+
+.numeros{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    margin: 20px;
+}
+
+
+
+.numeros div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 10%;
+    background-color: #f0f0f0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.numeros div:hover{
+    background-color: #d0d0d0;
+    cursor: pointer;
+}
+
+.hoy{
+    background-color: #ffcc00;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}
